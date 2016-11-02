@@ -1,4 +1,9 @@
-var juego={filas:[[],[],[]],espacioVacio:{fila:2,columna:2},
+var juego={
+	filas:[[],[],[]],
+	espacioVacio:{
+		fila:2,
+		columna:2
+	},
 		crearPieza:function(numero,fila, columna){
 		var object = $('<div>');
         object.addClass('pieza');
